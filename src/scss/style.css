@@ -1,0 +1,191 @@
+
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("../public/fonts/hkgrotesk-bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("../public/fonts/hkgrotesk-light.woff");
+  font-weight: light;
+}
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("../public/fonts/hkgrotesk-regular.woff");
+  font-weight: regular;
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #033039 !important;
+  font-family: "HKGrotesk" !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "HKGrotesk";
+  color: #033039;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+  color: #333 !important;
+}
+.navbar {
+  opacity: 1;
+  transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+p {
+  color: #033039;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+}
+
+.hero-header {
+  background: rgb(250,244,255);
+  background: linear-gradient(180deg, rgba(250,244,255,1) 70%, rgba(255,255,255,1) 100%);
+  min-height: 550px;
+}
+
+.raptor-logo {
+  margin-top: 100px;
+  max-width: 158px !important;
+}
+
+.companies {
+  margin-top: 20px;
+  max-width: 504px !important;
+  width: 100%;
+}
+
+.charmander {
+  position: absolute;
+  right: -90px;
+  bottom: 48%;
+  width: 110px;
+}
+
+.iphoneX {
+  margin: 6%;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.iphoneX img {
+  max-height: 600px;
+}
+.iphoneX:after {
+  content: "";
+  position: absolute;
+  top: -8%;
+  left: -48.5%;
+  width: 165%;
+  height: 125%;
+  background-size: contain;
+  background-image: url(../public/images/iphoneX.png);
+}
+
+.left-1 {
+  position: absolute;
+  left:0%;
+  width: 30%;
+  top: 0%;
+  z-index: 3;
+}
+.left-2 {
+  position: absolute;
+  left:30%;
+  width: 28%;
+  top: 5%;
+  z-index: 2;
+}
+.left-3 {
+  position: absolute;
+  left:55%;
+  width: 25%;
+  top: 15%;
+  z-index: 1;
+}
+
+.work {
+  min-height: 600px;
+}
+
+
+.color {
+  background-color: #033039;
+}
+.color h1, .color h2, .color h3, .color h4, .color h5, .color p {
+  color: white;
+}
+.color small {
+  color: rgba(255,255,255,.5);
+}
+.secondSection {
+  margin-top: -23%;
+}
+
+.hero-text {
+  margin-top:5%;
+  margin-left:-5%;
+  margin-bottom: 10%;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) { 
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+ .hero-phone {
+  max-width: 90% !important;
+  height: auto;
+  margin-left: -5% !important;
+ }
+ .hero-text {
+   margin-top:-20%;
+   margin-left:5%;
+   margin-right:5%;
+ }
+ .secondSection{
+    margin-top: 0;
+ }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+ 
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  
+ }
